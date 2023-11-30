@@ -1,3 +1,17 @@
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Urbanist:wght@100;400&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald&family=Roboto+Condensed:ital,wght@1,300;1,400&family=Urbanist:wght@100;400&display=swap');
+
+
+
+
+*{
+
+font-family: 'Roboto Condensed', sans-serif;
+
+}
 .active{
      @apply text-orange-500
 }
