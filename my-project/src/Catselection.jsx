@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 const Catselection = ({ onSelectCat, activeCat }) => {
   const categories = ["Startups", "Security", "AI", "Apps", "Tech", "Gadgets"];
@@ -6,7 +7,7 @@ const Catselection = ({ onSelectCat, activeCat }) => {
     <div className=" px-4 mb-8 lg:space-x-16 flex flex-wrap items-center border-b-2 py-5 text-gray-500 font-bold ">
       <button
         onClick={() => onSelectCat(null)}
-        className={`lg:ml-12 $(activeCat  ? "" : "active-button" )`}
+        className={`lg:ml-12   $(activeCat  ? "" :"active-button" )`}
       >
         All
       </button>
